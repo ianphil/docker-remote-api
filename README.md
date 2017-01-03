@@ -1,6 +1,8 @@
 # docker-remote-api
 Example code used at http://tripdubroot.com
 
+Follow Docker Remote API docs to understand passing options: [Remote API - Create Container](https://docs.docker.com/engine/reference/api/docker_remote_api_v1.24/#/create-a-container)
+
 ## Manual testing
 This is used to understand the options need to pass create, run, etc.
 
@@ -43,3 +45,5 @@ docker.createContainer({
     container.start(() => {});
 });
 ```
+
+Can also pull from [Meteor-Docker](https://github.com/djedi23/meteor-docker/blob/3c323daba574f0354e12efe6b237e83fdddd76b3/server/methods.js#L705).
