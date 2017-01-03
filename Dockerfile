@@ -7,4 +7,5 @@ RUN npm install
 
 CMD ["node", "app.js"]
 
-# docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock dockerode
+# docker build -t tdr/api .
+# docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock tdr/api
