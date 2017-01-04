@@ -4,7 +4,7 @@ Example code used at http://tripdubroot.com
 Follow Docker Remote API docs to understand passing options: [Remote API - Create Container](https://docs.docker.com/engine/reference/api/docker_remote_api_v1.24/#/create-a-container)
 
 ## Manual testing
-This is used to understand the options need to pass create, run, etc.
+This is used to understand the options need to pass create, run, etc. You shouldn't really need to do these things. Just my observations. 
 
 ```
 docker pull tripdubroot/primordial
